@@ -1,0 +1,17 @@
+class Ninja {
+    constructor(nombre, salud, _velocidad, _fuerza, ) {
+        this.nombre = nombre;
+        this.salud = salud;
+        this._velocidad = 3;
+        this._fuerza = 3;
+    }
+    sayName(){
+        console.log(this.nombre);
+    }
+    showStats(){
+        console.log(this._fuerza, this._velocidad, this.salud)
+    }
+    drinkSake(){
+        this.salud += 10;
+    }
+}
